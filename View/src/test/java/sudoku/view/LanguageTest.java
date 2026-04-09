@@ -22,7 +22,7 @@ public class LanguageTest {
         assertEquals("New Game", resource.getString("START_GAME"));
         assertEquals("Exit Game", resource.getString("EXIT_GAME"));
 
-        LanguageEnum.setSelectedLanguage(LanguageEnum.ENGLISH);
+        LanguageEnum.setSelectedLanguage(LanguageEnum.POLISH);
         resource = LanguageEnum.getResourceBundle();
 
         assertNotNull(resource, "Polish resource bundle is null");
